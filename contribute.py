@@ -4,9 +4,7 @@ def add(*args):
 
 def mul(*args):
     result = 1
-    # Add code below
-    return result
-
+    return result*args
 
 def sub(a, b):
     return abs(a-b)
